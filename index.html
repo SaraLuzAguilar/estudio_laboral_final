@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Estudio Integrador — Ciudadanía y Trabajo (completo)</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body id="page-index">
+  <div class="wrap">
+    <header class="header">
+      <div>
+        <h1>Estudio Integrador — Ciudadanía y Trabajo</h1>
+        <p class="lead">Versión completa: contenido visible y breve + profundizaciones expandibles. Hecho para repasar rápido y luego profundizar.</p>
+      </div>
+      <div class="nav-actions">
+        <a class="btn" href="quiz.html">Ir al Quiz (50 preguntas)</a>
+        <button id="btnPrint" class="btn ghost">Imprimir / PDF</button>
+      </div>
+    </header>
+
+    <div class="grid">
+      <nav class="sidebar" aria-label="Navegación">
+        <div class="search">
+          <input id="buscar" type="search" placeholder="Buscar (ej. vacaciones, Art.21)"/>
+          <button id="clear">✕</button>
+        </div>
+        <div class="topics">
+          <!-- listado corto para navegación -->
+          <a class="topic" data-topic="lct">LCT — Definición y Art.1–5</a>
+          <a class="topic" data-topic="principios">Principios (6)</a>
+          <a class="topic" data-topic="fuentes">Fuentes (10)</a>
+          <a class="topic" data-topic="art21">Contrato: Art.21 y elementos</a>
+          <a class="topic" data-topic="presuncion">Presunción (Art.23)</a>
+          <a class="topic" data-topic="caracteres">Caracteres (6)</a>
+          <a class="topic" data-topic="obligaciones">Obligaciones & Derechos</a>
+          <a class="topic" data-topic="remuneracion">Remuneración y formas</a>
+          <a class="topic" data-topic="prueba">Prueba y recibo</a>
+          <a class="topic" data-topic="contratos">Tipos de contrato (4)</a>
+          <a class="topic" data-topic="pruebaPer">Período de prueba</a>
+          <a class="topic" data-topic="jornada">Jornada (diurna/nocturna/mixta/insalubre)</a>
+          <a class="topic" data-topic="horasExtra">Horas Extra (cálculo y requisitos)</a>
+          <a class="topic" data-topic="descansos">Descansos</a>
+          <a class="topic" data-topic="licencias">Licencias</a>
+          <a class="topic" data-topic="vacaciones">Vacaciones — período y cálculo</a>
+          <a class="topic" data-topic="sac">SAC y antigüedad</a>
+          <a class="topic" data-topic="mujeres">Trabajo de mujeres y protecciones</a>
+          <a class="topic" data-topic="extincion">Extinción y obligaciones finales</a>
+        </div>
+      </nav>
+
+      <main id="contenido" class="content">
+        <!-- LCT -->
+        <section class="section purple" id="lct">
+          <div class="art">Fuente: LCT (Ley de Contrato de Trabajo)</div>
+          <h2>LCT — Definición y primeros 5 artículos (breve)</h2>
+          <p class="visible">
+            <strong>Definición:</strong> La LCT regula las relaciones individuales y colectivas de trabajo, estableciendo derechos y obligaciones de empleadores y trabajadores, y reglas sobre contratación, jornada, remuneraciones, licencias y extinción.
+          </p>
+          <ul class="visible">
+            <li><strong>Art. 1:</strong> Ámbito de aplicación: relaciones de trabajo dependiente (personales, bajo dependencia y remuneradas).</li>
+            <li><strong>Art. 2:</strong> Aplicación supletoria de otras normas y convenios; protección al trabajador.</li>
+            <li><strong>Art. 3:</strong> Interpretación conforme a principios protectores; derecho laboral de orden público.</li>
+            <li><strong>Art. 4:</strong> Regulación de modalidades especiales (convenios, estatutos).</li>
+            <li><strong>Art. 5:</strong> Competencia e interacción con normas provinciales y nacionales; prioridad de normas más protectoras.</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="lct-deep">Profundizar</button>
+          </div>
+          <div id="lct-deep" class="deep">
+            <p>En la profundización se explica la interpretación judicial de cada artículo y ejemplos (ej. límites de aplicación en trabajadores independientes, contratos especiales, y cómo la LCT se complementa con convenios colectivos y la CN).</p>
+            <p><strong>Ejemplo:</strong> Un trabajador que cumple horario y está sujeto a instrucciones suele estar incluido en el ámbito del Art.1 aunque el empleador lo declare “autónomo”.</p>
+          </div>
+        </section>
+
+        <!-- PRINCIPIOS -->
+        <section class="section purple" id="principios">
+          <div class="art">Principios (6)</div>
+          <h2>Principios del Derecho Laboral (6)</h2>
+          <p class="visible"><strong>Lista visible (debe saberse):</strong></p>
+          <ol class="visible">
+            <li><strong>Protector:</strong> favorecer a la parte más débil (trabajador).</li>
+            <li><strong>Irrenunciabilidad:</strong> derechos mínimos no renunciables.</li>
+            <li><strong>Primacía de la realidad:</strong> la práctica prevalece sobre la forma.</li>
+            <li><strong>Continuidad:</strong> presunción de continuidad del vínculo.</li>
+            <li><strong>Buena fe:</strong> exigencia de conducta honesta entre partes.</li>
+            <li><strong>Razonabilidad:</strong> límites de proporcionalidad en sanciones y medidas.</li>
+          </ol>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="principios-deep">Profundizar</button>
+          </div>
+          <div id="principios-deep" class="deep">
+            <p>Cada principio con ejemplos: <em>protector</em> (indubio pro operario) — caso de contrato indistinto; <em>primacía de la realidad</em> — trabajadores “en negro” con horario fijo.</p>
+            <p>Incluye citas jurisprudenciales y notas sobre conflicto entre principios (ej. irrenunciabilidad vs autonomía de la voluntad).</p>
+          </div>
+        </section>
+
+        <!-- FUENTES -->
+        <section class="section purple" id="fuentes">
+          <div class="art">Fuentes (10)</div>
+          <h2>Fuentes del Derecho Laboral — (tenés que saber las 10)</h2>
+          <p class="visible">Lista de fuentes formales y materiales:</p>
+          <ol class="visible">
+            <li>Constitución Nacional (Art. 14 bis)</li>
+            <li>Ley de Contrato de Trabajo (LCT)</li>
+            <li>Convenios colectivos de trabajo</li>
+            <li>Decretos y reglamentaciones</li>
+            <li>Jurisprudencia (fallos laborales y CSJN)</li>
+            <li>Doctrina y doctrina administrativa</li>
+            <li>Costumbre laboral</li>
+            <li>Tratados internacionales (ratificados)</li>
+            <li>Estatutos y normas profesionales</li>
+            <li>Contrato individual de trabajo (pactos y cláusulas)</li>
+          </ol>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="fuentes-deep">Profundizar</button>
+          </div>
+          <div id="fuentes-deep" class="deep">
+            <p>Explicación de cómo se jerarquizan estas fuentes y ejemplos: cuando convenio colectivo mejora condiciones legales, prevalece; la costumbre puede completar lagunas.</p>
+          </div>
+        </section>
+
+        <!-- ART 21 -->
+        <section class="section teal" id="art21">
+          <div class="art">Art. 21 LCT</div>
+          <h2>Concepto de Contrato de Trabajo (Art.21) y Elementos Esenciales</h2>
+          <p class="visible"><strong>Definición (esencial):</strong> Existe contrato de trabajo cuando una persona presta servicios personales bajo dependencia y recibe remuneración.</p>
+
+          <p class="visible"><strong>Elementos esenciales (visibles, con definiciones):</strong></p>
+          <ul class="visible">
+            <li><strong>Sujeto:</strong> trabajador (persona física) y empleador (persona física o jurídica). Capacidad y consentimiento.</li>
+            <li><strong>Objeto:</strong> prestación de servicios personales lícitos; contenido de la tarea.</li>
+            <li><strong>Forma:</strong> condición de dependencia (jurídica/técnica/económica) y remuneración; la relación es registrable.</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="art21-deep">Profundizar</button>
+          </div>
+          <div id="art21-deep" class="deep">
+            <p>Desglose de cada elemento con ejemplos: cómo identificar dependencia (control horario, órdenes, integración orgánica). Texto del artículo y notas prácticas para juicios laborales.</p>
+          </div>
+        </section>
+
+        <!-- PRESUNCION -->
+        <section class="section purple" id="presuncion">
+          <div class="art">Art. 23 LCT</div>
+          <h2>Presunción de Existencia</h2>
+          <p class="visible">Si se presta servicios personales, habituales y remunerados, la ley presume contrato laboral. La carga de la prueba la tiene quien niega la relación.</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="presuncion-deep">Profundizar</button>
+          </div>
+          <div id="presuncion-deep" class="deep">
+            <p>Casos prácticos de fraude laboral, prueba a aportar por empleador, consecuencias (multas, retroactivos, contribuciones). Jurisprudencia ilustrativa.</p>
+          </div>
+        </section>
+
+        <!-- CARACTERES -->
+        <section class="section purple" id="caracteres">
+          <div class="art">6 caracteres</div>
+          <h2>Caracteres del Contrato de Trabajo (6)</h2>
+          <p class="visible">Lista visible: personal, bilateral, consensual, oneroso, conmutativo y de tracto sucesivo.</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="caracteres-deep">Profundizar</button>
+          </div>
+          <div id="caracteres-deep" class="deep">
+            <p>Explicación de cada carácter: por ejemplo, 'personal' indica que la prestación la realiza el trabajador en persona; 'de tracto sucesivo' significa que las obligaciones se cumplen en el tiempo (salario periódico).</p>
+          </div>
+        </section>
+
+        <!-- OBLIGACIONES Y DERECHOS -->
+        <section class="section teal" id="obligaciones">
+          <div class="art">Derechos y obligaciones</div>
+          <h2>Obligaciones y derechos — Trabajador y Empleador</h2>
+
+          <p class="visible"><strong>Trabajador — derechos principales:</strong></p>
+          <ul class="visible">
+            <li>Percibir remuneración</li>
+            <li>Jornada y descansos</li>
+            <li>Vacaciones</li>
+            <li>Licencias y protección por maternidad</li>
+            <li>Seguridad social y ART</li>
+            <li>Indemnizaciones cuando corresponde</li>
+          </ul>
+
+          <p class="visible"><strong>Trabajador — obligaciones principales:</strong></p>
+          <ul class="visible">
+            <li>Cumplir tareas y horarios</li>
+            <li>Respetar normas internas y medidas de seguridad</li>
+            <li>Guardar buena fe y diligencia</li>
+          </ul>
+
+          <p class="visible"><strong>Empleador — derechos y obligaciones:</strong></p>
+          <ul class="visible">
+            <li>Dirección y organización del trabajo (dentro de la ley)</li>
+            <li>Pagar remuneraciones y cargas sociales</li>
+            <li>Registrar al trabajador y entregar recibos</li>
+            <li>Proporcionar condiciones de trabajo seguras</li>
+            <li>Cumplir con convenios y aceptar obligaciones legales</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="obligaciones-deep">Profundizar</button>
+          </div>
+          <div id="obligaciones-deep" class="deep">
+            <p>Notas: límites del poder de dirección del empleador; derechos colectivos; mecanismos de reclamo (SRT, justicia laboral). Ejemplo de incumplimiento patronal y remedios.</p>
+          </div>
+        </section>
+
+        <!-- REMUNERACIÓN -->
+        <section class="section green" id="remuneracion">
+          <div class="art">Remuneración</div>
+          <h2>Remuneración — Tipos y definición</h2>
+          <p class="visible"><strong>Definición:</strong> Pago de carácter alimentario que el empleador abona por la prestación laboral.</p>
+
+          <p class="visible"><strong>Tipos visibles:</strong></p>
+          <ul class="visible">
+            <li>Remunerativos (computan para aportes e indemnizaciones): salario básico, horas extras, comisiones, antigüedad, adicionales por convenio.</li>
+            <li>No remunerativos (exentos de aportes/indemnizaciones si reúnen requisitos): viáticos con comprobantes, reintegros documentados.</li>
+          </ul>
+
+          <p class="visible"><strong>Formas de determinar la remuneración (6 — visibles):</strong></p>
+          <ol class="visible">
+            <li>Por tiempo (sueldo mensual, jornal)</li>
+            <li>Por producción (pieza, rendimiento)</li>
+            <li>Por comisión (porcentual sobre ventas)</li>
+            <li>Mixta (combinación tiempo + producción)</li>
+            <li>Participación en utilidades / bonificaciones</li>
+            <li>Propinas y remuneraciones indirectas (según reglamentación)</li>
+          </ol>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="remuneracion-deep">Profundizar</button>
+          </div>
+          <div id="remuneracion-deep" class="deep">
+            <p>Explicación de cómo se calcula cada forma (ejemplos numéricos para jornada, producción y comisión). Cómo determinar si una suma es remunerativa (análisis de la naturaleza y destino del pago)</p>
+          </div>
+        </section>
+
+        <!-- PRUEBA Y RECIBO -->
+        <section class="section teal" id="prueba">
+          <div class="art">Prueba y garantía de pago</div>
+          <h2>Prueba y garantía de pago — Recibo de sueldo y plazos</h2>
+          <p class="visible">El recibo de sueldo es prueba del pago: debe detallar haberes y descuentos. Plazos usuales: pago mensual (dentro de 4 días hábiles desde cierre) — varía por convenio.</p>
+          <ul class="visible">
+            <li>Recibo: debe indicar empleador, trabajador, periodo, conceptos (bruto), descuentos y neto en números y letras.</li>
+            <li>Guardar recibos: prueba para reclamos laborales y previsionales.</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="prueba-deep">Profundizar</button>
+          </div>
+          <div id="prueba-deep" class="deep">
+            <p>Requisitos formales del recibo, consecuencias del pago "por fuera", acciones administrativas (ANSES, AFIP) y judiciales. Ejemplo de interpretación judicial de viáticos vs salario.</p>
+          </div>
+        </section>
+
+        <!-- TIPOS DE CONTRATO -->
+        <section class="section pink" id="contratos">
+          <div class="art">Tipos (4)</div>
+          <h2>Tipos de Contrato de Trabajo (4)</h2>
+          <ul class="visible">
+            <li><strong>Indeterminado:</strong> duración indefinida — regla general.</li>
+            <li><strong>Plazo fijo:</strong> duración determinada (tope usual 5 años); renovaciones abusivas → indeterminado.</li>
+            <li><strong>Temporada:</strong> actividades estacionales (turismo, agricultura).</li>
+            <li><strong>Eventual:</strong> para tareas extraordinarias o temporales, no cubre tareas permanentes.</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="contratos-deep">Profundizar</button>
+          </div>
+          <div id="contratos-deep" class="deep">
+            <p>Casos prácticos: cómo demostrar fraude en uso de contratos eventuales para tareas permanentes; derechos que conserva el trabajador en cada modalidad.</p>
+          </div>
+        </section>
+
+        <!-- PERIODO DE PRUEBA -->
+        <section class="section purple" id="pruebaPer">
+          <div class="art">Art.92 bis</div>
+          <h2>Período de Prueba</h2>
+          <p class="visible">Duración típica: 3 meses (según reformas puede variar). Debe constar y registrarse. Si se despide durante el período sin causa, en general no corresponde indemnización salvo abuso.</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="pp-deep">Profundizar</button>
+          </div>
+          <div id="pp-deep" class="deep">
+            <p>Cuando el empleador abusa del período (repetición, sucesivos contratos para el mismo trabajador) puede haber reparación. Notas sobre inscripción y límites legales.</p>
+          </div>
+        </section>
+
+        <!-- JORNADA -->
+        <section class="section teal" id="jornada">
+          <div class="art">Jornada — diurna/nocturna/mixta/insalubre</div>
+          <h2>Jornada de Trabajo</h2>
+
+          <p class="visible"><strong>Jornada diurna:</strong> límite 8 h diarias / 48 h semanales (en régimen general).</p>
+          <p class="visible"><strong>Jornada nocturna:</strong> horario 21:00–6:00 → 7 h máx; cada hora nocturna se valora con factor ~1,1428.</p>
+          <p class="visible"><strong>Jornada mixta:</strong> combinación de diurna y nocturna; si excede 3 h nocturnas, se considera nocturna.</p>
+          <p class="visible"><strong>Trabajos insalubres:</strong> horarios y topes específicos según reglamentación y convenios (limitaciones, adicionales e indemnizaciones especiales).</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="jornada-deep">Profundizar</button>
+          </div>
+          <div id="jornada-deep" class="deep">
+            <p>Tablas de horarios, ejemplo de cálculo nocturno y mixto, referencias a normativa sobre trabajos insalubres y adicionales por peligrosidad o penosidad.</p>
+          </div>
+        </section>
+
+        <!-- HORAS EXTRA -->
+        <section class="section purple" id="horasExtra">
+          <div class="art">Horas Extra</div>
+          <h2>Horas Extra — cálculo y requisitos</h2>
+          <p class="visible"><strong>Requisitos para ser legales:</strong> acuerdo/orden del empleador, máximo 3 h diarias (uso común), límites mensuales/ anuales por convenio; pago con recargo.</p>
+          <p class="visible"><strong>Cálculo (visible):</strong> valor hora normal × recargo (por lo general +50% en días hábiles; +100% domingos/feriados o casos previstos).</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="horasExtra-deep">Profundizar</button>
+          </div>
+          <div id="horasExtra-deep" class="deep">
+            <p>Ejemplo numérico: sueldo mensual → calculás valor hora (sueldo/ (4.33*40) o según convenio), luego aplicás 1.5 o 2 según el recargo. Requisitos formales: registro y pago en recibo.</p>
+          </div>
+        </section>
+
+        <!-- DESCANSOS -->
+        <section class="section teal" id="descansos">
+          <div class="art">Descansos</div>
+          <h2>Descansos</h2>
+          <p class="visible">Descanso mínimo entre jornadas: 12 horas. Descanso semanal: 35 horas corridas (normalmente domingo). Pausas intrajornada: según jornada y convenio.</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="descansos-deep">Profundizar</button>
+          </div>
+          <div id="descansos-deep" class="deep">
+            <p>Ejemplos de cálculo de descanso entre turnos, compensaciones por no otorgamiento y derechos ante violación de descansos.</p>
+          </div>
+        </section>
+
+        <!-- LICENCIAS -->
+        <section class="section pink" id="licencias">
+          <div class="art">Licencias</div>
+          <h2>Licencias</h2>
+          <p class="visible">Tipos: licencia por maternidad, paternidad, por enfermedad, por fallecimiento, por matrimonio, por estudios/servicios públicos y licencias especiales (lactancia, consultas médicas del hijo).</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="licencias-deep">Profundizar</button>
+          </div>
+          <div id="licencias-deep" class="deep">
+            <p>Duraciones, requisitos y cómo se justifican. Ejemplo: licencia por matrimonio (según convenio), licencia por enfermedad con certificado médico y normativas sobre protección del puesto.</p>
+          </div>
+        </section>
+
+        <!-- VACACIONES -->
+        <section class="section green" id="vacaciones">
+          <div class="art">Vacaciones & SAC</div>
+          <h2>Vacaciones — Duración, período de otorgamiento</h2>
+          <p class="visible">Días según antigüedad: &lt;5 años = 14d; 5–10 = 21d; 10–20 = 28d; &gt;20 = 35d. Período de otorgamiento habitual: temporada estival (según convenio / acuerdo); aviso 45 días antes.</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="vac-deep">Profundizar</button>
+          </div>
+          <div id="vac-deep" class="deep">
+            <p>Cálculo de vacaciones no gozadas, recargos y cómo se computa el salario durante vacaciones (incluye conceptos remunerativos). Ejemplos prácticos.</p>
+          </div>
+        </section>
+
+        <!-- SAC Y ANTIGUEDAD -->
+        <section class="section green" id="sac">
+          <div class="art">SAC & Antigüedad</div>
+          <h2>Sueldo Anual Complementario (SAC) y Antigüedad</h2>
+          <p class="visible">SAC: corresponde al 50% del mejor sueldo del semestre (se abona en dos cuotas: junio y diciembre). Antigüedad: se computa a los efectos de indemnización y escalas (ej. adicionales por antigüedad).</p>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="sac-deep">Profundizar</button>
+          </div>
+          <div id="sac-deep" class="deep">
+            <p>Cómo calcular el SAC: ejemplo numérico; cómputo de antigüedad para indemnizaciones; cómo se integra la antigüedad en el recibo.</p>
+          </div>
+        </section>
+
+        <!-- TRABAJO DE MUJERES -->
+        <section class="section pink" id="mujeres">
+          <div class="art">Protecciones y licencias</div>
+          <h2>Trabajo de mujeres — derechos y protecciones</h2>
+
+          <p class="visible"><strong>Principios y protecciones visibles:</strong></p>
+          <ul class="visible">
+            <li>Licencia por maternidad: 90 días (45 antes + 45 después, según opciones).</li>
+            <li>Estabilidad reforzada: protección desde la confirmación de embarazo hasta 7.5 meses post parto.</li>
+            <li>Conservación del empleo y reubicación en tareas no peligrosas.</li>
+            <li>Excedencia: derecho a hasta 6 meses sin sueldo para cuidado del hijo (definición y condiciones).</li>
+            <li>Licencia por paternidad: días según convenio/ley aplicable.</li>
+            <li>No discriminación ni acoso: obligación de garantizar un entorno laboral libre de violencia y discriminación.</li>
+            <li>Licencias especiales: lactancia (períodos y modalidades), enfermedad del hijo, consultas médicas justificadas.</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="m-deep">Profundizar</button>
+          </div>
+          <div id="m-deep" class="deep">
+            <p>Detalles sobre excedencia, modalidad de reingreso, efectos sobre antigüedad, ejemplos de casos de despido nulo por embarazo y protocolos contra acoso. Obligaciones del empleador en materia de prevención y medidas reparatorias.</p>
+          </div>
+        </section>
+
+        <!-- EXTINCION -->
+        <section class="section red" id="extincion">
+          <div class="art">Extinción & Obligaciones finales</div>
+          <h2>Extinción del Contrato — causas y obligaciones</h2>
+          <p class="visible">Formas de extinción: decisión del trabajador (renuncia), decisión del empleador (despido con o sin justa causa), mutuo acuerdo, causas externas (muerte, fuerza mayor, quiebra).</p>
+
+          <p class="visible"><strong>Obligaciones al finalizar:</strong></p>
+          <ul class="visible">
+            <li>Preaviso: trabajador 15 días; empleador 1 mes (<5 años) o 2 meses (>5 años) (salvo convenio); en su defecto, indemnización sustitutiva.</li>
+            <li>Liquidación final: días trabajados, horas extras, vacaciones proporcionales, SAC proporcional, indemnizaciones por antigüedad si corresponde.</li>
+            <li>Entrega de constancias y certificados laborales.</li>
+          </ul>
+
+          <div class="actions">
+            <button class="deepBtn" data-target="e-deep">Profundizar</button>
+          </div>
+          <div id="e-deep" class="deep">
+            <p>Explicación de cómo se calcula la indemnización por antigüedad (sueldo mensual por año trabajado o por convenio), ejemplos numéricos y plazos procesales para reclamos.</p>
+          </div>
+        </section>
+
+        <footer class="footer">
+          <p class="small">Contenido desarrollado íntegramente a partir de tu PDF (Examen Integrador). Lo visible es sintético-pero-completo; las profundizaciones amplían con ejemplos y notas.</p>
+        </footer>
+
+      </main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Quiz — Estudio Integrador (50 preguntas)</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body id="page-quiz">
+  <div class="wrap">
+    <header class="header">
+      <div>
+        <h1>Quiz de Práctica — 50 preguntas</h1>
+        <p class="lead">Modo práctica (sin tiempo). Responde y luego pulsa <strong>Corregir</strong> para ver tu puntaje y qué temas reforzar.</p>
+      </div>
+      <div class="nav-actions">
+        <a class="btn" href="index.html">Volver al Estudio</a>
+        <button id="btnReset" class="btn ghost">Reiniciar</button>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="quizContainer" class="section quiz"></section>
+
+      <div style="display:flex;gap:8px;align-items:center;margin-top:10px">
+        <button id="btnCheck" class="btn">Corregir</button>
+        <button id="btnShowAnswers" class="btn ghost">Mostrar respuestas correctas</button>
+        <div id="result" class="small" style="margin-left:10px"></div>
+      </div>
+
+      <footer class="footer" style="margin-top:14px">
+        <p class="small">Si el sistema indica temas a reforzar, volvé a la sección correspondiente en la página principal.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
